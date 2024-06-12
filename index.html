@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones en JS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Funciones en JS</h1>
+    </header>
+    <section>
+        <button onclick="pintar('black')">Pintar negro</button>
+        <button onclick="pintar('violet')">Pintar Violeta</button>
+        <button onclick="pintar('#2e2e2e')">Pintar #2e2e2e</button>
+        <button onclick="pintar('#1ABC9C')">Pintar #1ABC9C</button>
+    </section>
+    <hr/>
+    <h2>Borde imágenes</h2>
+    <section>
+        <img id="img-1" src="https://random.dog/d68232f6-a412-499a-8ca9-290e31e9c050.jpg" alt="Perro"
+        onclick="agregarBordes('img-1')" /> 
+        <img onclick="agregarBordes('img-2')" id="img-2" src="https://random.dog/d68232f6-a412-499a-8ca9-290e31e9c050.jpg" alt="Perro" />
+        <img id="img-3" onclick="agregarBordes('img-3')" src="https://random.dog/d68232f6-a412-499a-8ca9-290e31e9c050.jpg" alt="Perro" />
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
